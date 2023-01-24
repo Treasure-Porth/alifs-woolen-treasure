@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products</title>
+    <link rel="stylesheet" href="./products.css">
+    <script src="https://kit.fontawesome.com/3dc5cce3e2.js" crossorigin="anonymous"></script>
+    <script src= "https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+
+</head>
+<body>
+    <div class="container">
+        <img class="main-pic" src="./pitush.jpg" alt="">
+        <div class="coverleft"></div>
+        <div class="left-container">
+            <h1 class="main">alifs_ <br> _woolen_ <br> _Treasure</h1>
+            <table class=".table">
+                <td><a href="./index.html">Home</a></td>
+                <td><a href="./products.html">products</a></td>
+                <td><a href="./about.html">About us</a></td>
+            </table>
+            <h3>follow us on</h3>
+            <a href="https://www.facebook.com/profile.php?id=100076130352072"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.instagram.com/alifs_woolen_treasure/"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+    </div>
+    <br>
+    <br>
+        <div class="products">
+            <h1 class="product">Products:</h1>
+            <img id="bracelate" src="./bracelate.jpg" alt="">
+            <div class="div">
+                <button onclick="bone()">1</button>
+                <button onclick="btwo()">2</button>
+                <h2>Bracelet:</h2>
+                <p>product no: 001 <br> Price- <br> 100tk(1st picture) <br> 110 tk (2nd picture) <br> delivery: <br> 60 tk- inside dhaka <br> 120 tk- outside dhaka <br> size and name can be <br> customized <br> </p>
+                <button id="buybutton" onclick="buy('001')">Buy</button>
+            </div>
+            <img id="earring" src="./earring.jpg" alt="">
+
+            <div class="div">
+                <button onclick="one()">1</button>
+                <button onclick="two()">2</button>
+                <button onclick="three()">3</button>
+                <br>
+                <h2>earrings:</h2>
+                <p>product no: 002 <br> Price- <br> 70 tk(big size), 60 tk (small size) <br> size: <br> big (1st and 2nd picture) <br> and small size (3rd picture) <br> color: white, brown <br> 
+                delivery: <br> 60 tk- inside dhaka <br> 120 tk- outside dhaka </p>
+                
+                <button id="buybutton" onclick="buy('002')">Buy</button>
+
+            </div> 
+            <br>               
+            <img src="./hat.jpg" alt="">
+            <div class="div">
+                <h2>Crochet bucket <br>  hat</h2>
+                <p>product no: 003 <br> Price-600 tk <br> delivery: <br> 60 tk- inside dhaka <br> 120 tk- outside dhaka <br> Material - flex fur yarn <br> #buckethatcrochet</p>
+                <button id="buybutton" onclick="buy('003')">Buy</button>
+            </div>
+            <img src="./scrunchie.jpg" alt="">
+            <div class="div">
+                <h2>Silk Scrunchies</h2>
+                <p>product no: 004 <br> Price-60 tk <br> delivery: <br> 60 tk- inside dhaka <br> 120 tk- outside dhaka </p>
+                <button id="buybutton" onclick="buy('004')">Buy</button>
+            </div>
+            <br>
+            <img id="tulip" src="./tulip.jpg" alt="">
+            <div class="div">
+                <button onclick="tone()">1</button>
+                <button onclick="ttwo()">2</button>
+                <h2>Crochet tulip</h2>
+                <p>product no: 005 <br> Price- 140 tk only <br> You can customise it <br> into any colour <br> delivery: <br> 60 tk- inside dhaka <br> 120 tk- outside dhaka <br> #tulip <br> #crochet</p>
+                <br>
+                <button id="buybutton" onclick="buy('005')">Buy</button>
+            </div>
+            <img id="icebear" src="./icebear.jpg" alt="">
+            <div class="div">
+                <h2>Crochet ice bear</h2>
+                <p>product no: 006 <br> Price- 250 tk <br> delivery: <br> 60 tk- inside dhaka <br> 120 tk- outside dhaka <br>  You can add keychain <br>#icebear <br> #crochet</p>
+                <br>
+                <button id="buybutton" onclick="buy('006')">Buy</button>
+            </div>
+            <br>
+            <img id="woolhat" src="./woolhat.jpg" alt="">
+            <div class="div">
+                <button onclick="wone()">1</button>
+                <button onclick="wtwo()">2</button>
+                <h2>Handmade <br> woolen hat</h2>
+                <p>product no: 007 <br> Price- 500tk <br>Can be customised <br> delivery: <br> 60 tk- inside dhaka <br> 120 tk- outside dhaka <br> according  to your age </p>
+                <br>
+                <button id="buybutton" onclick="buy('007')">Buy</button>
+            </div>
+            <img  src="./sunflower.jpg" alt="">
+            <div class="div">
+                <h2>Sunflower book <br> mark🌻🌻</h2>
+                <p>product no: 008 <br> Price- 60 tk <br> delivery: <br> 60 tk- inside dhaka <br> 120 tk- outside dhaka <br>  #bookmark <br> #sunflower</p>
+                <br>
+                <button id="buybutton" onclick="buy('008')">Buy</button>
+            </div>
+            <br>
+            <img id="bandana" src="./bandana1.jpg" alt="">
+            <div class="div">
+                <button onclick="bano()">1</button>
+                <button onclick="bato()">2</button>
+                <br>
+                <br>
+                <br>
+                <h2>Crochet bandana</h2>
+                <p>product no: 009 <br> price- 200 tk <br> delivery: <br> 60 tk- inside dhaka <br> 120 tk- 
+                outside dhaka <br> #bandana <br> #crochet</p>
+                <button id="buybutton" onclick="buy('009')">Buy</button>
+            </div>
+            <img  src="./icecream.jpg" alt="">
+            <div class="div">
+                <h2>Crochet ice <br> cream</h2>
+                <p> product no: 010 <br>
+                    Price-150tk <br>
+                    Size-4inch <br> delivery: <br> 60 tk- inside dhaka <br> 120 tk- 
+                    outside dhaka <br></p>
+                <br>
+                <button id="buybutton" onclick="buy('010')">Buy</button>
+            </div>
+            <br>
+            <img id="crochetscrunchie" src="./crochetscrunchie1.jpg" alt="">
+            <div class="div">
+                <button onclick="cone()">1</button>
+                <button onclick="ctwo()">2</button>
+                <br>
+                <br>
+                <h2>Crochet scrunchie</h2>
+                <p> product  no: 011 <br>
+                    Price-80tk
+                    <br> delivery: <br> 60 tk- inside dhaka <br> 120 tk- 
+                    outside dhaka <br></p>
+                <br>
+                <button id="buybutton" onclick="buy('011')">Buy</button>
+            </div>
+            <img id="keychain" src="./keychain.jpg" alt="">
+            <div class="div">
+                <button onclick="kone()">1</button>
+                <button onclick="ktwo()">2</button>
+                <br>
+                <br>
+                <h2>Beaded keychain</h2>
+                <p> product no: 012 <br>
+                    Can be customised <br>
+                    Price - 120 tk
+                    <br> delivery: <br> 60 tk- inside dhaka <br> 120 tk- 
+                    outside dhaka <br></p>
+                <br>
+                <button id="buybutton" onclick="buy('012')">Buy</button>
+            </div>
+        </div>
+        <script src="./index.js"></script>
+</body>
+</html>
