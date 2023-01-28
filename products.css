@@ -115,6 +115,11 @@ h2{
     font-weight: bolder;
     position: relative;
 }
+#top{
+    font-size: medium;
+    display: inline-block;
+    box-sizing: border-box;
+}
 @media only screen and (max-width: 480px) {
     td a{
         font-size: large;
@@ -159,6 +164,7 @@ h2{
     .main{
         font-size: 4vw;
     }
+    
   }
   @media only screen and (max-width: 500px) {
     td a{
