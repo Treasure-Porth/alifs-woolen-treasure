@@ -107,9 +107,9 @@ h3{
         width: 74vw;
         right: -1px;
     }
-    body{
+    /* body{
         overflow: hidden;
-    }
+    } */
     .left-container{
         min-width: 26vw;
     }
@@ -215,3 +215,4 @@ h2{
     font-weight: 500;
     font-size: 15px;
 }
+
