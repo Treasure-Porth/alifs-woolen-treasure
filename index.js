@@ -26,7 +26,7 @@ function two(){
     document.getElementById("earring").src = "brownearring.jpg";
 }
 function three(){
-    document.getElementById("earring").src = "earring.jpg";
+    document.getElementById("earring").src = "smallearring.jpg";
 }
 function bone(){
     document.getElementById("bracelate").src = "bracelate.jpg";
