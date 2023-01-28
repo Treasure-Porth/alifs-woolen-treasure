@@ -136,9 +136,7 @@ h2{
         width: 74vw;
         right: -1px;
     }
-    body{
-        overflow: hidden;
-    }
+    
   }
   @media only screen and (max-width: 768px){
     td a{
